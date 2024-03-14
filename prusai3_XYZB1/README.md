@@ -1,6 +1,6 @@
 # multiaxis
 
-### follow **[THIS GUIDANCE DOCUMENT](https://colab.research.google.com/github/FullControlXYZ/multiaxis/blob/main/prusai3_XYZB1/prusa_4axis_guide_colab.ipynb)** to convert a prusa i3 to a 4-axis printer **AND** use [FullControl](https://github.com/FullControlXYZ/fullcontrol) to generate 4-axis gcode directly within the guide!
+### follow **[THIS GUIDANCE DOCUMENT](https://colab.research.google.com/github/FullControlXYZ/multiaxis/blob/main/prusai3_XYZB1/prusa_4axis_guide_colab.ipynb)** to convert a prusa i3 to a 4-axis printer **AND** use [FullControl](https://github.com/FullControlXYZ/fullcontrol/#readme) to generate 4-axis gcode directly within the guide!
 
 <p align="center">
   <picture>
@@ -13,13 +13,13 @@
 
 repo information:
 
-open-source multiaxis 3D printing capabilities developed as part of [FullControl research](https://github.com/FullControlXYZ/fullcontrol) with support from [Duet3D](https://www.duet3d.com/) and undertaken by engineering students (Renush Vigneswaran and Nathanael Hogg) at [Loughborough University](https://www.lboro.ac.uk/)
+open-source multiaxis 3D printing capabilities developed as part of [FullControl research](https://github.com/FullControlXYZ/fullcontrol/#readme) with support from [Duet3D](https://www.duet3d.com/) and undertaken by engineering students (Renush Vigneswaran and Nathanael Hogg) at [Loughborough University](https://www.lboro.ac.uk/)
 
 if you follow the guide, please let us know :) ... email [info@fullcontrol.xyz](mailto:info@fullcontrol.xyz)
 
 5-axis conversion walkthroughs will be released shortly
 
-multiaxis toolpath design demos are provided in [FullControl documentation](https://github.com/FullControlXYZ/fullcontrol)
+multiaxis toolpath design demos are provided in [FullControl documentation](https://github.com/FullControlXYZ/fullcontrol/#readme)
 
 current naming convention (may change in the future):
 
