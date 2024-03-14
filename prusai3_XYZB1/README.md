@@ -1,8 +1,13 @@
 # multiaxis
 
-### follow [this guidance document - UPDATE LINK](https://colab.research.google.com/github/FullControlXYZ/multiaxis/blob/main/prusai3_XYZB1/prusa_4axis_guide_colab.ipynb) to convert a prusi i3 to a 4-axis printer
+### follow [this guidance document](https://colab.research.google.com/github/FullControlXYZ/multiaxis/blob/main/prusai3_XYZB1/prusa_4axis_guide_colab.ipynb) to convert a prusi i3 to a 4-axis printer
 
-<center><img src='https://github.com/FullControlXYZ/multiaxis/raw/main/prusai3_XYZB1/Images/overall_image.jpg' width=450></center>
+<p align="center">
+  <picture>
+  <img src="https://github.com/FullControlXYZ/multiaxis/raw/main/prusai3_XYZB1/Images/overall_image.jpg" width="450">
+  </picture>
+  <br><b>think beyond <em>'normal'</em> 3D printing</b><br><br>
+</p>
 
 ------------------
 
