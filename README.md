@@ -1,6 +1,6 @@
 # multiaxis
 
-### follow [this guidance document](https://colab.research.google.com/github/FullControlXYZ/multiaxis/blob/main/prusai3_XYZB1/prusa_4axis_guide_colab.ipynb) to convert a prusa i3 to a 4-axis printer **AND** use FullControl to directly generate 4-axis gcode within the guide!
+### follow **[THIS GUIDANCE DOCUMENT](https://colab.research.google.com/github/FullControlXYZ/multiaxis/blob/main/prusai3_XYZB1/prusa_4axis_guide_colab.ipynb)** to convert a prusa i3 to a 4-axis printer **AND** use [FullControl](https://github.com/FullControlXYZ/fullcontrol) to generate 4-axis gcode directly within the guide!
 
 <p align="center">
   <picture>
