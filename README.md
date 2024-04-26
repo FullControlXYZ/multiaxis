@@ -2,6 +2,8 @@
 
 ### follow **[THIS GUIDANCE DOCUMENT](https://colab.research.google.com/github/FullControlXYZ/multiaxis/blob/main/prusai3_XYZB1/prusa_4axis_guide_colab.ipynb)** to convert a prusa i3 to a 4-axis printer **AND** use [FullControl](https://github.com/FullControlXYZ/fullcontrol/#readme) to generate 4-axis gcode directly within the guide!
 
+A 5-axis addon is described [here](https://github.com/FullControlXYZ/multiaxis/tree/main/prusai3_XYZB1C0#readme)
+
 <p align="center">
   <picture>
   <img src="https://github.com/FullControlXYZ/multiaxis/raw/main/prusai3_XYZB1/Images/overall_image.jpg" width="450">
