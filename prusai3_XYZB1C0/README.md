@@ -3,7 +3,7 @@ follow the **[PRUSA_i3 GUIDANCE DOCUMENT](https://colab.research.google.com/gith
 
 - print the additional stl files from [here](https://github.com/FullControlXYZ/multiaxis/tree/main/prusai3_XYZB1C0/CAD)
 - wire in the new motor ('C' in this image):
-    <center><img src='https://github.com/FullControlXYZ/multiaxis/blob/main/prusai3_XYZB1C0/prusai3_XYZB1C0/Duet%20Wiring/Circuit%20Diagram.png' width=450></center>
+    <center><img src='https://github.com/FullControlXYZ/multiaxis/raw/main/prusai3_XYZB1C0/Duet%20Wiring/Circuit%20Diagram.png' width=450></center>
 - implement minor changes to config file described in the 'Changes to config' section below (updated config file available [here](https://github.com/FullControlXYZ/multiaxis/blob/main/prusai3_XYZB1C0/prusai3_XYZB1C0/Config%20Files/))
 - Follow the '5-axis manual homing routine' instructions below
 - anything missing from these instructions? let us know! [info@fullcontrol.xyz](mailto:info@fullcontrol.xyz)
@@ -33,18 +33,13 @@ Manually home axes (to be automated in the future):
 1. Place 5th axis motor bracket on the print bed :
     - Whilst this could be anywhere on the print bed, depending on the design, it is recommended to leave at centre (The axes limits have been set assuming central position)
 
-    <center><img src='https://github.com/FullControlXYZ/multiaxis/blob/main/prusai3_XYZB1C0/Homing%20Photos/1.jpeg' width=450></center>
-
 1. Home B:
     - Use Duet Web Control to jog B until nozzle points directly down 
-
-    <center><img src='https://github.com/FullControlXYZ/multiaxis/blob/main/prusai3_XYZB1C0/Homing%20Photos/2.jpeg' width=450></center>
 
 1. Position Nozzle to be at the centre of the rotating bed (an indentation is designed into bed to clearly indicate centre):
     - Use Duet Web Control to jog X, Y and Z until the nozzle pinches paper at the centre of the bed.
     - Note down X Y (anmd maybe Z) values to easily move to this position for subsequent homing.
 
-    <center><img src='https://github.com/FullControlXYZ/multiaxis/blob/main/prusai3_XYZB1C0/Homing%20Photos/3.1.jpeg' width=450></center>
 
 1.	Set home for all axis: G92 Z0 X0 Y0 B0 C0 
 
@@ -52,3 +47,5 @@ Manually home axes (to be automated in the future):
     1.	Click T0 in duet web control and set nozzle temperature and bed temperature
     1.	Load gcode file (without start/end-procedures except M82/M83) onto printer
     1.	Run gcode file (use very slow speeds if you have no cooling fan)
+
+    <center><img src='https://github.com/FullControlXYZ/multiaxis/raw/main/prusai3_XYZB1C0/Homing%20Photos/1.jpeg' width=200> <img src='https://github.com/FullControlXYZ/multiaxis/raw/main/prusai3_XYZB1C0/Homing%20Photos/3.1.jpeg' width=200></center>
