@@ -34,8 +34,7 @@ M201 X1250.00 Y1250.00 Z1250.00 E2000.00 B1000.00  ; set accelerations (mm/s^2)
 M906 X750 Y750 Z600 E700 B600 I30                  ; set motor currents (mA) and motor idle factor in per cent
 M84 S30                                              ; Set idle timeout
                              						; Set idle timeout
-M208 X0 Y0 Z-27 S1          ; set axis minima
-M208 X250 Y210 Z210 B-90:90 S0; set axis maxima (B-axis limited to 90 degrees)
+M208 X0:200 Y0:210 Z0:200 B-90:90             ; set axis minima and maxima
 M564 H0
 
 
