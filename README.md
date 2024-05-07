@@ -19,7 +19,7 @@ open-source multiaxis 3D printing capabilities developed as part of [FullControl
 
 if you follow the guide, please let us know :) ... email [info@fullcontrol.xyz](mailto:info@fullcontrol.xyz)
 
-5-axis conversion walkthroughs will be released shortly
+it links to 5-axis and multi-tool revisions of the 4-axis version
 
 multiaxis toolpath design demos are provided in [FullControl documentation](https://github.com/FullControlXYZ/fullcontrol/#readme)
 
