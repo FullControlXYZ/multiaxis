@@ -9,6 +9,7 @@ changes from that document:
     - also check duet guidance doc ([example](https://docs.duet3d.com/How_to_guides/e3p_Mini5+_guide_part1_wiring))
 - changes to duet configuration files - [updated version available here](https://github.com/FullControlXYZ/multiaxis/tree/main/taz5_XYZB1_dual/Config%20Files)
 - an example fullcontrol design is [here](https://colab.research.google.com/github/FullControlXYZ/multiaxis/blob/main/taz5_XYZB1_dual/demo.ipynb)
+- we used a [100:1 gearbox-motor combo](https://www.active-robots.com/3322-0-28sth32-nema-11-bipolar-stepper-with-100-1.html?amp=1), more precise than 27:1, but this meant we needed backlash compensation in the toolpath
 - anything else? let us know!
 
 
